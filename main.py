@@ -1,8 +1,8 @@
 #pip install python-dotenv
 #pip install langchain-openai
 #pip install streamlit
-from dotenv import load_dotenv # type: ignore
-load_dotenv()
+#from dotenv import load_dotenv # type: ignore
+#load_dotenv()
 
 from langchain_openai import ChatOpenAI # type: ignore
 chat_model= ChatOpenAI()
